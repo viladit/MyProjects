@@ -1,0 +1,142 @@
+body {
+    background-color: #fff; /* Белый фон */
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.main-header {
+    background-color: #7c3c87;
+    color: #fff; /* Белый цвет текста */
+    font-family: "Arial Rounded MT Bold", sans-serif; /* Круглый шрифт */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between; /* Разместить элементы в шапке справа */
+    align-items: center;
+}
+
+div {
+    display: block;
+}
+
+.student {
+    font-size: 16px;
+}
+
+.git-logo-link {
+    margin-right: 20px; /* Отодвигаем лого GitHub вправо */
+}
+
+.git-logo-link a img {
+    border: 0;
+}
+
+div.wrapper {
+    margin: 0.5% 1% 2% 1%;
+    width: 98%;
+}
+.grid {
+    border: 1px solid #2f2f2f;
+    display: grid;
+    /* grid-template-columns: repeat(3, 606px); */
+    grid-template-columns: 606px 1.3fr 3fr;
+}
+
+.graph-container img {
+    max-width: 120%; /* Уменьшаем картинку с графиком */
+    display: block;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+div.container {
+    padding: 3px 6px 3px 6px;
+    font-size: 18px;
+}
+h3 {
+    color: #7c3c87;
+    margin-top: 20px;
+}
+
+.button-container {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center; /* Центрируем кнопки по горизонтали */
+}
+
+.buttonX {
+    background-color: #7c3c87;
+    color: #ffffff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border-radius: 10px;
+    margin: 5px;
+    width: 50px;
+}
+
+.buttonX:hover {
+    background-color: #ffcc00;
+    color: black;
+}
+
+.buttonX:active {
+    background-color: #e0b301;
+    color: black;
+}
+
+.text-input {
+    padding: 10px;
+    border: 2px solid #7c3c87;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.radioR {
+    margin: 3px;
+    width: 50px;
+}
+
+.action-buttons {
+    margin-top: 20px;
+}
+
+.action-button {
+    background-color: #7c3c87;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.action-button:hover{
+    background-color: #ffcc00;
+    color: black;
+}
+.result {
+    margin-right: auto;
+    margin-left: auto;
+    width: 50%;
+}
+
+.result-table {
+    border: #7c3c87 solid 2px;
+    border-spacing: 0.5em;
+    color: #333333;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table {
+    font-size: 18px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.graphic {
+    margin-left: 6em;
+    margin-top: 2em;
+}
