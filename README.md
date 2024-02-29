@@ -1,4 +1,3 @@
-# MyProjects
 # _JavaProgramming_
 
 - [JavaProject 1] - java.lang.Math, jar
